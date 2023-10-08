@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.bloco01 {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 20%;
+}
+
+.foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+}
+ 
+.menu {
+    list-style: none;
+    text-decoration: none;
+    color: #C3215C;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 50px;
+    margin-right: 50px;
+}
+
+.menu:hover {
+    color: white;
+}
+
+.bloco02 {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    margin-top: 5%;
+    text-align: left
+}
+
+h1 {
+    padding: 0 0 0 80px;
+    font-size: 40px;
+}
+
+.nome {
+    padding: 0 0 0 80px;
+    font-size: 40px;
+    color: #C3215C;
+}
+
+.nome:hover{
+    color: #22A39F;
+}
+
+.dados{
+    padding: 0 0 0 80px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400
+}
+
+.email {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    padding: 0 80px 0 80px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.icones {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 25px;
+ }
+
+.ol {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    position: relative;
+    margin-left: 65px;
+
+}
+
+h2 {
+    position: relative;
+    margin-left: 80px;
+}
+
+.lista{
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 65px;
+    margin-right: 50px;
+
+}
+
+
